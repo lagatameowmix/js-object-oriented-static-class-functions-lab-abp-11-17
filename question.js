@@ -9,5 +9,9 @@ save(){
   }
 }
 
+constructor(content){
+  this.content = content;
+  this.save()
+}
 
 Question._All = [];
