@@ -4,14 +4,16 @@ class Question {
   return this._All;
   }
 
+  constructor(content){
+    this.content = content;
+    this.save()
+  }
+  
 save(){
   this.constructor._All.push(this)
   }
 }
 
-constructor(content){
-  this.content = content;
-  this.save()
-}
+
 
 Question._All = [];
