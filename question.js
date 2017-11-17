@@ -6,8 +6,6 @@ class Question {
 }
 Question._All = [];
 //Define a save() instance function that can add the instance to the _All class property.
-class Question {
-  constructor(){
-    this.save()
-  }
+save(){
+  this.constructor._All.push(this)
 }
