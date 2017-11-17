@@ -4,7 +4,7 @@ class Question {
   return this._All;
   }
 
-static (Id){
+static Find(Id){
   return this.All()[Id-1]
 }
 
