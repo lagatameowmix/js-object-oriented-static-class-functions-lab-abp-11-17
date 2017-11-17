@@ -8,10 +8,10 @@ static (Id){
   return this.All()[Id-1]
 }
 
-  constructor(content){
-    this.content = content;
-    this.save()
-  }
+constructor(content){
+  this.content = content;
+  this.save()
+}
 
 save(){
   this.constructor._All.push(this)
